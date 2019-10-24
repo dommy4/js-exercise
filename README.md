@@ -84,6 +84,7 @@ git push -u origin master
 
 Confirm that the initial files are present on your Github repository.
 
+
 Now you are ready to begin the assessment. Remember to commit and push your work after you finish working on each task.
 
 ## Instructions
