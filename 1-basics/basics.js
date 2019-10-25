@@ -210,7 +210,7 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
             // ✏️ ADD CODE HERE ✏️
-            secondArray =Array.from(firstArray);
+            const secondArray = firstArray.slice();
             ///////////////////////////////////////////////////////////////////
 
             expect(firstArray).to.eql([1, 2, 3]);
@@ -284,8 +284,8 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you find two different numbers that each cast to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
-            const falsyNumber1 =3;
-            const falsyNumber2 =2;
+            const falsyNumber1 =0;
+            const falsyNumber2 =NaN;
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyNumber1).to.equal("number");
@@ -309,7 +309,7 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you find a value that is typeof "object" but also casts to `false`?
             // ✏️ ADD CODE HERE ✏️
-
+            const falsyThing = null;
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyThing).to.equal("object");
