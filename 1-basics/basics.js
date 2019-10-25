@@ -339,7 +339,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            propertyName = "secondProperty";
             ////////////////////////////////////////////////////////////////////
 
             // That's the same property access as above, but now we get back
