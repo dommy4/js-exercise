@@ -210,8 +210,8 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
             // ✏️ ADD CODE HERE ✏️
-
-            const firstArray =Array.from(firstArray);///////////////////////////////////////////////////////////////////
+            secondArray =Array.from(firstArray);
+            ///////////////////////////////////////////////////////////////////
 
             expect(firstArray).to.eql([1, 2, 3]);
             expect(secondArray).to.eql([1, 2, 3]);
@@ -231,7 +231,7 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
             // ✏️ ADD CODE HERE ✏️
-            const longArray=[]
+            const longArray =[];
             longArray.length =100;
             ////////////////////////////////////////////////////////////////////
 
@@ -249,8 +249,7 @@ describe("basics", function() {
             // By observing their casting behavior in the tests below, you can find
             // out the required types.
             // ✏️ ADD CODE HERE ✏️
-            const firstVariable =3;
-            const secondVariable ="1"
+
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof firstVariable).to.equal("number");
