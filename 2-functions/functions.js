@@ -27,7 +27,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            const myFunction=()=>{};
             ////////////////////////////////////////////////////////////////////
 
             myFunction(); // myFunction should be callable now
@@ -40,7 +40,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            const otherFunction=()=>{};
             ////////////////////////////////////////////////////////////////////
 
             if (myFunction !== otherFunction) {
