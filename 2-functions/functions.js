@@ -375,7 +375,13 @@ describe("functions", function() {
             // Can you implement a function 'myFunction' that returns a function
             // which returns the number of arguments of 'myFunction' when called?
             // ✏️ ADD CODE HERE ✏️
+            function myFunction(){
+                const length=arguments.length;
 
+                return function(){
+                    return length;
+                }
+            }
             ////////////////////////////////////////////////////////////////////
 
             // Look at that strange code: myFunction()().
@@ -387,7 +393,7 @@ describe("functions", function() {
             // The returned function should return the number 1.
             const calledWithOneArgument = myFunction("a")();
             // Now we're calling 'myFunction' with two parameters
-            // The returned function should return the number 2.
+            // The returned function should return the m 2.
             const calledWithTwoArguments = myFunction("a", "b")();
 
             if (
@@ -417,7 +423,7 @@ describe("functions", function() {
             // Can you implement a function that takes a function as an argument,
             // executes it and returns the result?
             // ✏️ ADD CODE HERE ✏️
-
+            passMeAFunction(function(){});
             ////////////////////////////////////////////////////////////////////
 
             if (hasBeenCalled === false) {
