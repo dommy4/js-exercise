@@ -246,7 +246,7 @@ describe("functions", function() {
                 // Find a way to retrieve the number from here.
                 // You should not write any if's here. It should work for all possible numbers.
                 // ✏️ ADD CODE HERE ✏️
-
+                return arguments.length;
                 ////////////////////////////////////////////////////////////////////
             }
 
@@ -278,7 +278,7 @@ describe("functions", function() {
                 // This means that we can't change it.
                 // Is there a way to still make 'myConst' equal true here?
                 // ✏️ ADD CODE HERE ✏️
-
+                var myConst =true;
                 ////////////////////////////////////////////////////////////////////
 
                 if (myConst !== true) {
